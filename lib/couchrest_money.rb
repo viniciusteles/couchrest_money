@@ -1,7 +1,9 @@
 require 'couchrest_model'
 require 'money_validator'
+require 'positive_money_validator'
 
 require 'money'
+require 'positive_money'
 require 'money/integer_parser'
 require 'money/float_parser'
 require 'money/big_decimal_parser'
