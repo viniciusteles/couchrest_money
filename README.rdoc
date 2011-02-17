@@ -1,6 +1,10 @@
 = couchrest_money
 
-Description goes here.
+This is a very preliminary work. I created it to help me deal with money in a project that uses CouchRest:Model.
+
+I don't think this code is ready for production. It's a work in progress and it's not stable. 
+
+Use it at your own risk. 
 
 == Contributing to couchrest_money
  
