@@ -11,5 +11,6 @@ require 'couchrest/money/string_parser'
 
 require 'couchrest/core_extensions/nil_class'
 require 'couchrest/core_extensions/integer'
+require 'couchrest/core_extensions/float'
 require 'couchrest/core_extensions/numeric'
 require 'couchrest/core_extensions/string'
