@@ -1,6 +1,6 @@
 class Float
   def real
-    Money.from_float self
+    CouchRest::Money.from_float self
   end
   
   def reais
