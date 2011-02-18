@@ -4,7 +4,7 @@ class Numeric
   end
   
   def centavo
-    Money.from_cents self
+    CouchRest::Money.from_cents self
   end
   
   def centavos

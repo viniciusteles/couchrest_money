@@ -7,7 +7,7 @@ class String
   end
   
   def real
-    Money.from_string(self)
+    CouchRest::Money.from_string(self)
   end
   
   def reais

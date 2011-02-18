@@ -1,6 +1,6 @@
 class Integer
   def real
-    Money.new :amount => (self * 100)
+    CouchRest::Money.new :amount => (self * 100)
   end
   
   def reais
