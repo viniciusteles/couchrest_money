@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{couchrest_money}
-  s.version = "0.1.0"
+  s.version = "0.2.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Vinicius Teles"]
@@ -25,6 +25,7 @@ Gem::Specification.new do |s|
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "couchrest_money.gemspec",
     "lib/core_extensions/integer.rb",
     "lib/core_extensions/nil_class.rb",
     "lib/core_extensions/numeric.rb",
@@ -36,8 +37,11 @@ Gem::Specification.new do |s|
     "lib/money/integer_parser.rb",
     "lib/money/string_parser.rb",
     "lib/money_validator.rb",
+    "lib/positive_money.rb",
+    "lib/positive_money_validator.rb",
     "spec/couchrest_money_spec.rb",
     "spec/locales/pt-BR.yml",
+    "spec/positive_money_spec.rb",
     "spec/spec_helper.rb",
     "spec/support/validation.rb"
   ]
@@ -48,6 +52,7 @@ Gem::Specification.new do |s|
   s.summary = %q{Money class that acts as a Couchrest CastedModel.}
   s.test_files = [
     "spec/couchrest_money_spec.rb",
+    "spec/positive_money_spec.rb",
     "spec/spec_helper.rb",
     "spec/support/validation.rb"
   ]
