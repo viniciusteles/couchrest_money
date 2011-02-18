@@ -382,7 +382,7 @@ module CouchRest
     describe "to_str" do
       it "converts to String" do
         1.0.real.to_str.should == "1.00"
-        1.cent.to_str.should == "0.01"
+        "1".centavo.to_str.should == "0.01"
       end
     end
   end
